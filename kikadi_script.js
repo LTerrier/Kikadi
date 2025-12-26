@@ -47,7 +47,7 @@
                 ]
             },
             {
-            personnage: "Yvain",
+            personnage: "Gauvain",
                 citation:  [
                 "Moi, je m’en fous, si on me force à y retourner, je retiens ma respiration jusqu’à ce qu’on arrête de me forcer à y retourner."
                 ]
@@ -79,6 +79,46 @@
                     "Quand on veut être sûr de son coup, mon petit bonhomme, on plante des carottes, on ne joue pas les chefs d'État !"
                 ]
             },
+            {
+                personnage: "Manilius",
+                citation: [
+                    "J'pensais à une chose, en toute amitié, un gros pain dans votre tête, ça serait de nature à vous convenir ?",
+                    "Ouais c'est bien qu'on reste un peu dehors, comme ça j'pourrais vous mettre une grosse tarte en plein air.",
+                ]
+            },
+            {
+                personnage: "Attila",
+                citation: [
+                    "Je vais tout casser, ici, MOI ! Kaamelott Kaamelott : y va rester un tas de caaaailloux, comme ça ! Je veux l'or, tout l'or sinon c'est la guerre !",
+                    "Et pourquoi pas ?",
+                    "Elle voumit ?",
+                    "C'est la plus belle femme de Kaamelott ?"
+                ]
+            },
+            {
+                personnage: "Belt",
+                citation: [
+                    "Sire, vous êtes quand même un sacré souverain. Accueillir des péquenots qui sentent la bouse, comme ça, dans votre chapeau, ben je dis château !",
+                    "Sire, est ce qu'on est vraiment obligé de perdre du temps avec tout les pignoufs de la région qui se prennent pour des exploitants ?",
+
+                ]
+            },
+            {
+                personnage: "Breccan",
+                citation: [
+                    "Sire, on en a déjà parlé de la pierre ! Je peux pas monter une pierre d’une toise et demi dans un escalier à colimaçon !",
+                    "Le cuir, ça restera toujours le cuir. Le cuir, ça traverse les âges, les frontières, les modes. D’autant qu’là j’vous ai pas mis d’la vache moisie, attention ! C’est d’la tannerie d’luxe ! Assemblée au crochet de six ! Y'a des heures de main d'œuvre derrière !",
+                    "Ça vous dérange si… si j’mets ma p’tite griffe là ?",
+                    "C’est carré-carré chez vous, hein ?",
+                ]
+            },
+            {
+                personnage: "Calogrenant",
+                citation: [
+                    "Vous n'avez qu'à considérer que je suis officiellement cul nu !",
+                    "Mais c'est un petit mâle, il s'appelle ... « Ferme ta gueule », c'est que quand il est né il arrêtait pas de couiner...",
+                ]
+            }
  ]
             
 
@@ -124,3 +164,4 @@ function verifier() {
     }, 2000);
 
 }
+
