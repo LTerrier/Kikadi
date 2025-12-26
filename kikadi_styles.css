@@ -11,15 +11,6 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;
-    font-family: 'Segoe UI', Tahoma, sans-serif;
-    background: linear-gradient(135deg, #1f2933, #111827);
-    color: #f9fafb;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
 }
 
 /* Titre */
@@ -97,4 +88,5 @@ button:active {
         padding: 20px;
     }
 }
+
 
