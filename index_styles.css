@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  background-image: url("res/Kaamelott.jpg"); /* ton image */
+  background-image: url("res/logo.jpg"); /* ton image */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,3 +65,4 @@ a:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
+
