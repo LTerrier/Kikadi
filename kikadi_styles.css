@@ -7,6 +7,10 @@
 
 /* Fond général */
 body {
+    background-image: url("res/acteurs.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, sans-serif;
     background: linear-gradient(135deg, #1f2933, #111827);
@@ -93,3 +97,4 @@ button:active {
         padding: 20px;
     }
 }
+
