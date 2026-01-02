@@ -1,6 +1,7 @@
  const quiz = [
             {
                 personnage: "Arthur",
+                indices: [ "Indice 1 : Personnage très important.", "Indice 2 : Roi.", "Indice 3 : Porte Excalibur." ],
                 citation: [
                     "Ah le printemps ! La nature se réveille, les oiseaux reviennent, on crame des mecs… ",
                     "Mais c’est incroyable, j’ai l’impression de bouffer de la terre avec de la bouse et du gravier",
@@ -48,6 +49,7 @@
             },
             {
                 personnage: "Perceval",
+                indices: [ "Indice 1 : .", "Indice 2 : .", "Indice 3 : ." ],
                 citation:  [
                     "C'est pas faux !",
                     "Plutôt crever la langue dehors plutot qu’être libéré par mamie dégueu !",
@@ -55,16 +57,18 @@
                     "La patience est un plat qui se mange sans sauce",
                     "Après demain, à partir d'aujourd'hui ?",
                     "Faut arrêter ces conneries de nord et de sud ! Une fois pour toutes, le nord, suivant comment on est tourné, ça change tout !"
-                ]
+                ],
             },
             {
               personnage: "Karadoc",
+                indices: [ "Indice 1 : Mange beaucoup.", "Indice 2 : Très ami avec Perceval.", "Indice 3 : Inventeur de la théorie du gras."],
                 citation:  [
                     "Mais colonel à titre aromatique. Je vous l'ai déjà dit, c'est pour le féliciter."
                 ]
             },
             {
                 personnage: "Kadoc",
+                indices: [ "Indice 1 : .", "Indice 2 : .", "Indice 3 : ." ],
                 citation : [
                     "A Kadoc.",
                     "Faut pas respirer la compote, ça fait tousser."
@@ -72,6 +76,7 @@
             },
             {
             personnage: "Leodagan",
+            indices: [ "Indice 1 : .", "Indice 2 : .", "Indice 3 : ." ],
                 citation:  [
                     "Moi j'ai appris à lire, ben je souhaite ça à personne.",
                     "Si les dieux avaient dû être avec notre côté, ils nous auraient pas refilé des enfants comme vous."
@@ -79,24 +84,28 @@
             },
             {
             personnage: "Gauvain",
+            indices: [ "Indice 1 : .", "Indice 2 : .", "Indice 3 : ." ],
                 citation:  [
                 "Moi, je m’en fous, si on me force à y retourner, je retiens ma respiration jusqu’à ce qu’on arrête de me forcer à y retourner."
                 ]
             },
             {
                 personnage: "Urgan",
+                indices: [ "Indice 1 : .", "Indice 2 : .", "Indice 3 : ." ],
                 citation: [
                     "Halte là, manants de bon conseils ! Rebroussez malice à l’instant où il vous en cuira. A l’étuvée."
                 ]
             },
             {
                 personnage: "Fraganan",
+                indices: [ "Indice 1 : .", "Indice 2 : .", "Indice 3 : ." ],
                 citation: [
                     "La visite en Carmélide, c’est un peu comme les plans de fraises. Plus c’est espacé, mieux c’est !",
                 ]
             },
             {
                 personnage: "Angharad",
+                indices: [ "Indice 1 : .", "Indice 2 : .", "Indice 3 : ." ],
                 citation: [
                     "Hé ben, si un jour j’oublie que je suis boniche, vous serez gentil de me le rappeler !",
                     "Si Monsieur et Madame préfèrent s'envoyer des fions dans l'intimité, je peux aussi me retirer.",
@@ -104,6 +113,7 @@
             },
             {
                 personnage: "Anna",
+                indices: [ "Indice 1 : .", "Indice 2 : .", "Indice 3 : ." ],
                 citation: [
                     "Vous êtes une gigantesque tarlouze.",
                     "Excusez-moi, est-ce qu'à un seul moment, j'aurais par mégarde donné le moindre signe de vouloir discuter avec vous?",
@@ -112,6 +122,7 @@
             },
             {
                 personnage: "Manilius",
+                indices: [ "Indice 1 : .", "Indice 2 : .", "Indice 3 : ." ],
                 citation: [
                     "J'pensais à une chose, en toute amitié, un gros pain dans votre tête, ça serait de nature à vous convenir ?",
                     "Ouais c'est bien qu'on reste un peu dehors, comme ça j'pourrais vous mettre une grosse tarte en plein air.",
@@ -119,6 +130,7 @@
             },
             {
                 personnage: "Attila",
+                indices: [ "Indice 1 : .", "Indice 2 : .", "Indice 3 : ." ],
                 citation: [
                     "Je vais tout casser, ici, MOI ! Kaamelott Kaamelott : y va rester un tas de caaaailloux, comme ça ! Je veux l'or, tout l'or sinon c'est la guerre !",
                     "Et pourquoi pas ?",
@@ -128,6 +140,7 @@
             },
             {
                 personnage: "Belt",
+                indices: [ "Indice 1 : .", "Indice 2 : .", "Indice 3 : ." ],
                 citation: [
                     "Sire, vous êtes quand même un sacré souverain. Accueillir des péquenots qui sentent la bouse, comme ça, dans votre chapeau, ben je dis château !",
                     "Sire, est ce qu'on est vraiment obligé de perdre du temps avec tout les pignoufs de la région qui se prennent pour des exploitants ?",
@@ -136,15 +149,17 @@
             },
             {
                 personnage: "Breccan",
+                indices: [ "Indice 1 : .", "Indice 2 : .", "Indice 3 : ." ],
                 citation: [
                     "Sire, on en a déjà parlé de la pierre ! Je peux pas monter une pierre d’une toise et demi dans un escalier à colimaçon !",
                     "Le cuir, ça restera toujours le cuir. Le cuir, ça traverse les âges, les frontières, les modes. D’autant qu’là j’vous ai pas mis d’la vache moisie, attention ! C’est d’la tannerie d’luxe ! Assemblée au crochet de six ! Y'a des heures de main d'œuvre derrière !",
                     "Ça vous dérange si… si j’mets ma p’tite griffe là ?",
                     "C’est carré-carré chez vous, hein ?",
-                ]
+                ]                
             },
             {
                 personnage: "Calogrenant",
+                indices: [ "Indice 1 : .", "Indice 2 : .", "Indice 3 : ." ],
                 citation: [
                     "Vous n'avez qu'à considérer que je suis officiellement cul nu !",
                     "Mais c'est un petit mâle, il s'appelle ... « Ferme ta gueule », c'est que quand il est né il arrêtait pas de couiner...",
@@ -152,6 +167,7 @@
             },
             {
                personnage: "Guethenoc",
+               indices: [ "Indice 1 : .", "Indice 2 : .", "Indice 3 : ." ],
                citation: [
                     "Pour le transport, vaut mieux la brouette !",
                ]
@@ -161,6 +177,29 @@
 
 let index = 0;
 let citationActuelle = "";
+let indiceActuel = 0;
+
+function montrerIndice() {
+    const zoneIndice = document.getElementById("indice");
+    const indices = quiz[index].indices;
+
+    // Si pas d'indice
+    if (!indices || indices.length === 0) {
+        zoneIndice.textContent = "Aucun indice disponible.";
+        return;
+    }
+
+    // Si on a encore des indices à afficher
+    if (indiceActuel < indices.length) {
+        zoneIndice.textContent = indices[indiceActuel];
+        indiceActuel++;
+        return;
+    }
+
+    // Après le dernier indice → afficher la réponse
+    zoneIndice.textContent = `Réponse : ${quiz[index].personnage}`;
+}
+
 
 // ✅ Affiche UNE citation
 function afficherCitation() {
@@ -173,6 +212,8 @@ function afficherCitation() {
 
     document.getElementById("reponse").value = "";
     document.getElementById("resultat").textContent = "";
+    indiceActuel = 0;
+document.getElementById("indice").textContent = "";
 }
 
 afficherCitation(); // une seule fois au chargement
@@ -201,6 +242,5 @@ function verifier() {
     }, 2000);
 
 }
-
 
 
