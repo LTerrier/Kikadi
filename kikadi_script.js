@@ -16,7 +16,7 @@
                     "Cassez-vous ! Cassez-vous ! Cassez-vous ! Décarrez d’chez moi, bande de clampins !",
                     "C'est du patrimoine ça ?",
                     "Y a pas à dire, dès qu'il y a du dessert, le repas est tout de suite plus chaleureux !",
-                    "Il commence à doucement me faire chier celui là aussi!"
+                    "Il commence à doucement me faire chier celui là aussi!",
                     "Sortez-vous les doigts du cul !!!",
                     "Ah, mais des tanches pareilles, on devrait les mettre sous verre, hein !",
                     "Au bout d'un moment, il est vraiment druide, c'mec-là, ou ça fait quinze ans qu'il me prend pour un con ?",
@@ -201,5 +201,6 @@ function verifier() {
     }, 2000);
 
 }
+
 
 
